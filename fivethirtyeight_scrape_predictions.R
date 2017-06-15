@@ -49,7 +49,7 @@ get_predictions <- function(url){
     html_text()
   
   # adjust 'home_prob'
-  home_prob <- home_prob[seq(1, length(home_prob), by=2)]
+  home_prob <- home_prob[seq_along(home_prob) %% 2 == 1]
   
   # clean and combine to dataframe
   predictions <- tibble(
@@ -102,7 +102,7 @@ get_results <- function(url){
     html_text()
   
   # adjust 'home_prob'
-  home_prob <- home_prob[seq(1, length(home_prob), by=2)]
+  home_prob <- home_prob[seq_along(home_prob) %% 2 == 1]
   
   
   # goal models
