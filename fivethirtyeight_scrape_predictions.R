@@ -154,3 +154,22 @@ get_results <- function(url){
   previous_results
   
 }
+
+
+
+
+# 3. Scrape Data ----------------------------------------------------------
+
+# create urls to be scraped
+base_url <- "https://projects.fivethirtyeight.com/soccer-predictions/"
+
+urls_list <- tibble(
+  league_code = c("E0", "SP1", "D1", "I1", "F1", "CL1", "MLS"), 
+  url = paste0(base_url, c("", "la-liga/", "bundesliga/", "serie-a/", "ligue-1/", "champions-league/", "mls/"))
+)
+
+
+urls_list
+
+
+
