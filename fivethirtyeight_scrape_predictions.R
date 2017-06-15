@@ -24,33 +24,59 @@ get_upcoming_games <- function(url){
   webpage <- read_html(url)
   Sys.sleep(2.5+1*runif(1))
   
+  # base_css
+  base_css <- webpage %>% html_nodes(css="#matches-table-wrapper > div.games-container.upcoming > div")
+  
+  # nodes to map through
+  css_i <- paste0("#matches-table-wrapper > div.games-container.upcoming > div:nth-child(", seq_along(base_css), ")")
+  
+  # stage
+  stage <- map_chr(
+    css_i, 
+    function(x) if(webpage %>% html_nodes(css=x) %>% html_attr('class') %>% grepl("match-container", .)){
+      NA
+    } else {
+      webpage %>% html_nodes(css=x) %>% html_text()
+    }
+  )
+  
   # date
-  match_date <- webpage %>% 
-    html_nodes("#matches-table-wrapper > div.games-container.upcoming > div > table > tbody > tr.match-top > td.date > div") %>% 
-    html_text()
+  match_date <- map_chr(
+    css_i, 
+    function(x) webpage %>% html_nodes(css=x) %>% html_nodes(css="table > tbody > tr.match-top > td.date") %>% 
+      html_text() %>% ifelse(length(.) == 0, NA, .)
+  )
   
   # teams
-  hometeam <- webpage %>% 
-    html_nodes(css="#matches-table-wrapper > div.games-container.upcoming > div > table > tbody > tr.match-top > td.team") %>% 
-    html_attr('data-str')
-  awayteam <- webpage %>% 
-    html_nodes(css="#matches-table-wrapper > div.games-container.upcoming > div > table > tbody > tr.match-bottom > td.team") %>% 
-    html_attr('data-str')
+  hometeam <- map_chr(
+    css_i, 
+    function(x) webpage %>% html_nodes(css=x) %>% html_nodes(css="table > tbody > tr.match-top > td.team") %>% 
+      html_attr('data-str') %>% ifelse(length(.) == 0, NA, .)
+  )
+  awayteam <- map_chr(
+    css_i, 
+    function(x) webpage %>% html_nodes(css=x) %>% html_nodes(css="table > tbody > tr.match-bottom > td.team") %>% 
+      html_attr('data-str') %>% ifelse(length(.) == 0, NA, .)
+  )
   
   # probabilities
-  home_prob <- webpage %>% 
-    html_nodes(css="#matches-table-wrapper > div.games-container.upcoming > div > table > tbody > tr.match-top > td.prob") %>% 
-    html_text()
-  draw_prob <- webpage %>% 
-    html_nodes(css="#matches-table-wrapper > div.games-container.upcoming > div > table > tbody > tr.match-top > td.prob.tie-prob > div") %>% 
-    html_text()
-  away_prob <- webpage %>% 
-    html_nodes(css="#matches-table-wrapper > div.games-container.upcoming > div > table > tbody > tr.match-bottom > td.prob") %>% 
-    html_text()
+  home_prob <- map_chr(
+    css_i, 
+    function(x) webpage %>% html_nodes(css=x) %>% html_nodes(css="table > tbody > tr.match-top > td.prob") %>% 
+      html_text() %>% ifelse(length(.) == 0, NA, .)
+  )
+  draw_prob <- map_chr(
+    css_i, 
+    function(x) webpage %>% html_nodes(css=x) %>% html_nodes(css="table > tbody > tr.match-top > td.prob.tie-prob") %>% 
+      html_text() %>% ifelse(length(.) == 0, NA, .)
+  )
+  away_prob <- map_chr(
+    css_i, 
+    function(x) webpage %>% html_nodes(css=x) %>% html_nodes(css="tbody > tr.match-bottom > td.prob") %>% 
+      html_text() %>% ifelse(length(.) == 0, NA, .)
+  )
   
-  # adjust 'home_prob'
-  home_prob <- home_prob[seq_along(home_prob) %% 2 == 1]
-  
+
   
   # check existance of data
   check_existance <- all(
@@ -61,6 +87,7 @@ get_upcoming_games <- function(url){
     
     # clean and combine to dataframe
     predictions <- tibble(
+      stage,
       match_date,
       hometeam,
       awayteam,
@@ -70,10 +97,19 @@ get_upcoming_games <- function(url){
       scrape_datetime = as.character(Sys.time())
     )
     
+    # apply stage to rows below
+    for (i in seq(1, nrow(previous_results))){
+      previous_results$stage[i] <- ifelse(is.na(previous_results$stage[i]) & i > 1, previous_results$stage[i-1], previous_results$stage[i])
+    }
+    
+    # drop NAs
+    previous_results <- previous_results %>% drop_na()
+    
   } else {
     
     # output empty tibble
     predictions <- tibble(
+      stage = NA, 
       match_date = NA,
       hometeam = NA,
       awayteam = NA,
