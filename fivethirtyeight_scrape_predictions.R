@@ -19,7 +19,7 @@ project_wd <- getwd()
 
 # 2. Scrape Functions ---------------------------------------------------
 
-get_predictions <- function(url){
+get_upcoming_games <- function(url){
   # webpage
   webpage <- read_html(url)
   Sys.sleep(2.5+1*runif(1))
@@ -71,7 +71,7 @@ get_predictions <- function(url){
 
 
 
-get_results <- function(url){
+get_completed_games <- function(url){
   # webpage
   webpage <- read_html(url)
   Sys.sleep(2.5+1*runif(1))
