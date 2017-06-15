@@ -21,8 +21,8 @@ project_wd <- getwd()
 
 get_predictions <- function(url){
   # webpage
-  Sys.sleep(2.5+1*runif(1))
   webpage <- read_html(url)
+  Sys.sleep(2.5+1*runif(1))
   
   # date
   match_date <- webpage %>% 
@@ -73,8 +73,8 @@ get_predictions <- function(url){
 
 get_results <- function(url){
   # webpage
-  Sys.sleep(2.5+1*runif(1))
   webpage <- read_html(url)
+  Sys.sleep(2.5+1*runif(1))
   
   # date
   match_date <- webpage %>% 
