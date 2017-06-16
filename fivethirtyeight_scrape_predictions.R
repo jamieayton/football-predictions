@@ -145,6 +145,8 @@ get_completed_games <- function(url){
       home_prob = NA, 
       draw_prob = NA, 
       away_prob = NA, 
+      home_goals = NA, 
+      away_goals = NA, 
       AdjG_home = NA, 
       AdjG_away = NA, 
       ShotExG_home = NA, 
@@ -187,6 +189,18 @@ get_completed_games <- function(url){
       css_i, 
       function(x) webpage %>% html_nodes(css=x) %>% html_nodes(css="table > tbody > tr.match-bottom > td.team") %>% 
         html_attr('data-str') %>% ifelse(length(.) == 0, NA, .)
+    )
+    
+    # results
+    home_goals <- map_chr(
+      css_i, 
+      function(x) webpage %>% html_nodes(css=x) %>% html_nodes(css="table > tbody > tr.match-top > td.team > div.team-div > span.score") %>% 
+        html_text() %>% ifelse(length(.) == 0, NA, .)
+    )
+    away_goals <- map_chr(
+      css_i, 
+      function(x) webpage %>% html_nodes(css=x) %>% html_nodes(css="table > tbody > tr.match-bottom > td.team > div.team-div > span.score") %>% 
+        html_text() %>% ifelse(length(.) == 0, NA, .)
     )
     
     # probabilities
@@ -247,7 +261,9 @@ get_completed_games <- function(url){
       awayteam,
       home_prob = as.numeric(gsub("*%*<*", "", home_prob))/100, 
       draw_prob = as.numeric(gsub("*%*<*", "", draw_prob))/100, 
-      away_prob = as.numeric(gsub("*%*<*", "", away_prob))/100,
+      away_prob = as.numeric(gsub("*%*<*", "", away_prob))/100, 
+      home_goals = as.numeric(home_goals),
+      away_goals = as.numeric(away_goals),
       AdjG_home = as.numeric(AdjG_home), 
       AdjG_away = as.numeric(AdjG_away), 
       ShotExG_home = as.numeric(ShotExG_home), 
@@ -276,7 +292,6 @@ get_completed_games <- function(url){
 
 
 
-
 # 3. Scrape Data ----------------------------------------------------------
 
 # create urls to be scraped
@@ -287,9 +302,19 @@ urls_list <- tibble(
   url = paste0(base_url, c("", "la-liga/", "bundesliga/", "serie-a/", "ligue-1/", "champions-league/", "mls/"))
 )
 
-
+# get data
 upcoming_games <- map(urls_list$url, get_upcoming_games)
 completed_games <- map(urls_list$url, get_completed_games)
+
+# combine
+upcoming_games <- bind_rows(upcoming_games)
+completed_games <- bind_rows(completed_games)
+
+
+
+
+# 4. Write Data -----------------------------------------------------------
+
 
 
 
