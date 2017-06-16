@@ -116,6 +116,8 @@ get_upcoming_games <- function(url){
 
   }
   
+  # add url
+  predictions <- predictions %>% mutate(url = url)
   
   # return
   predictions
@@ -283,6 +285,9 @@ get_completed_games <- function(url){
     
     
   }
+  
+  # add url
+  previous_results <- previous_results %>% mutate(url = url)
   
   # return
   previous_results
