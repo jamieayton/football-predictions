@@ -315,11 +315,29 @@ completed_games <- map(urls_list$url, get_completed_games)
 upcoming_games <- bind_rows(upcoming_games)
 completed_games <- bind_rows(completed_games)
 
-
+# add league code
+upcoming_games <- upcoming_games %>% left_join(., urls_list, by="url")
+completed_games <- completed_games %>% left_join(., urls_list, by="url")
 
 
 # 4. Write Data -----------------------------------------------------------
 
+# write csv
+write_csv(urls_list, file.path(paste0(project_wd, "/fivethirtyeight/"), paste0("urls_list", ".csv")))
+write_csv(upcoming_games, file.path(paste0(project_wd, "/fivethirtyeight/"), paste0("upcoming_games", ".csv")))
+write_csv(completed_games, file.path(paste0(project_wd, "/fivethirtyeight/"), paste0("completed_games", ".csv")))
+
+
+
+
+# 5. Cleanup --------------------------------------------------------------
+
+# rm
+rm(urls_list, upcoming_games, completed_games)
+rm(base_url)
+rm(project_wd)
+
+rm(get_upcoming_games, get_completed_games)
 
 
 
