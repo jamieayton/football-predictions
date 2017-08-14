@@ -8,6 +8,7 @@ options(stringsAsFactors = FALSE)
 
 # packages
 library('tidyverse')
+library('stringr')
 library('rvest')
 
 # dir
@@ -22,7 +23,7 @@ project_wd <- getwd()
 get_upcoming_games <- function(url){
   # webpage
   webpage <- read_html(url)
-  Sys.sleep(2.5+1*runif(1))
+  Sys.sleep(5+1*runif(1))
   
   # base_css
   base_css <- webpage %>% html_nodes(css="#matches-table-wrapper > div.games-container.upcoming > div")
@@ -131,7 +132,7 @@ get_upcoming_games <- function(url){
 get_completed_games <- function(url){
   # webpage
   webpage <- read_html(url)
-  Sys.sleep(2.5+1*runif(1))
+  Sys.sleep(5+1*runif(1))
   
   # base_css
   base_css <- webpage %>% html_nodes(css="#matches-table-wrapper > div.games-container.completed > div")
@@ -302,28 +303,42 @@ get_completed_games <- function(url){
 # create urls to be scraped
 base_url <- "https://projects.fivethirtyeight.com/soccer-predictions/"
 
-urls_list <- tibble(
-  league_code = c("E0", "SP1", "D1", "I1", "F1", "CL1", "MLS"), 
-  url = paste0(base_url, c("", "la-liga/", "bundesliga/", "serie-a/", "ligue-1/", "champions-league/", "mls/"))
-)
+# get leagues
+webpage <- read_html(base_url)
+
+leagues <- tibble(
+    league_code = webpage %>% html_nodes(css = "#leagueselector > optgroup > option") %>% html_attr('value'), 
+    league_string = webpage %>% html_nodes(css = "#leagueselector > optgroup > option") %>% html_text()
+  ) %>% 
+  mutate(
+    url = paste0(base_url, league_code, "/"), 
+    region = str_split(league_string, ": ", simplify = TRUE)[,1], 
+    competition = str_split(league_string, ": ", simplify = TRUE)[,2] 
+  ) %>% 
+  mutate(
+    competition = if_else(competition == "" & region != "", region, competition), 
+    region = if_else(region == "Champions League" & competition == "Champions League", "Europe", region)
+  )
+
+
 
 # get data
-upcoming_games <- map(urls_list$url, get_upcoming_games)
-completed_games <- map(urls_list$url, get_completed_games)
+upcoming_games <- map(leagues$url, get_upcoming_games)
+completed_games <- map(leagues$url, get_completed_games)
 
 # combine
 upcoming_games <- bind_rows(upcoming_games)
 completed_games <- bind_rows(completed_games)
 
 # add league code
-upcoming_games <- upcoming_games %>% left_join(., urls_list, by="url")
-completed_games <- completed_games %>% left_join(., urls_list, by="url")
+upcoming_games <- upcoming_games %>% left_join(., leagues, by="url")
+completed_games <- completed_games %>% left_join(., leagues, by="url")
 
 
 # 4. Write Data -----------------------------------------------------------
 
 # write csv
-write_csv(urls_list, file.path(paste0(project_wd, "/fivethirtyeight/"), paste0("urls_list", ".csv")))
+write_csv(urls_list, file.path(paste0(project_wd, "/fivethirtyeight/"), paste0("leagues", ".csv")))
 write_csv(upcoming_games, file.path(paste0(project_wd, "/fivethirtyeight/"), paste0("upcoming_games", ".csv")))
 write_csv(completed_games, file.path(paste0(project_wd, "/fivethirtyeight/"), paste0("completed_games", ".csv")))
 
@@ -333,7 +348,7 @@ write_csv(completed_games, file.path(paste0(project_wd, "/fivethirtyeight/"), pa
 # 5. Cleanup --------------------------------------------------------------
 
 # rm
-rm(urls_list, upcoming_games, completed_games)
+rm(leagues, upcoming_games, completed_games)
 rm(base_url)
 rm(project_wd)
 
