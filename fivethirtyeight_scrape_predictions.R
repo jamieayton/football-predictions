@@ -338,7 +338,7 @@ completed_games <- completed_games %>% left_join(., leagues, by="url")
 # 4. Write Data -----------------------------------------------------------
 
 # write csv
-write_csv(urls_list, file.path(paste0(project_wd, "/fivethirtyeight/"), paste0("leagues", ".csv")))
+write_csv(leagues, file.path(paste0(project_wd, "/fivethirtyeight/"), paste0("leagues", ".csv")))
 write_csv(upcoming_games, file.path(paste0(project_wd, "/fivethirtyeight/"), paste0("upcoming_games", ".csv")))
 write_csv(completed_games, file.path(paste0(project_wd, "/fivethirtyeight/"), paste0("completed_games", ".csv")))
 

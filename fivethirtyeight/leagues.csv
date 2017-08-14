@@ -1,0 +1,26 @@
+league_code,league_string,url,region,competition
+champions-league,Champions League,https://projects.fivethirtyeight.com/soccer-predictions/champions-league/,Europe,Champions League
+bundesliga-austria,Austria: Bundesliga,https://projects.fivethirtyeight.com/soccer-predictions/bundesliga-austria/,Austria,Bundesliga
+premier-league,England: Premier League,https://projects.fivethirtyeight.com/soccer-predictions/premier-league/,England,Premier League
+championship,England: Championship,https://projects.fivethirtyeight.com/soccer-predictions/championship/,England,Championship
+ligue-1,France: Ligue 1,https://projects.fivethirtyeight.com/soccer-predictions/ligue-1/,France,Ligue 1
+ligue-2,France: Ligue 2,https://projects.fivethirtyeight.com/soccer-predictions/ligue-2/,France,Ligue 2
+bundesliga,Germany: Bundesliga,https://projects.fivethirtyeight.com/soccer-predictions/bundesliga/,Germany,Bundesliga
+bundesliga-2,Germany: 2. Bundesliga,https://projects.fivethirtyeight.com/soccer-predictions/bundesliga-2/,Germany,2. Bundesliga
+serie-a,Italy: Serie A,https://projects.fivethirtyeight.com/soccer-predictions/serie-a/,Italy,Serie A
+serie-b,Italy: Serie B,https://projects.fivethirtyeight.com/soccer-predictions/serie-b/,Italy,Serie B
+eredivisie,Netherlands: Eredivisie,https://projects.fivethirtyeight.com/soccer-predictions/eredivisie/,Netherlands,Eredivisie
+eliteserien,Norway: Eliteserien,https://projects.fivethirtyeight.com/soccer-predictions/eliteserien/,Norway,Eliteserien
+primeira-liga,Portugal: Primeira Liga,https://projects.fivethirtyeight.com/soccer-predictions/primeira-liga/,Portugal,Primeira Liga
+premier-league-russia,Russia: Premier League,https://projects.fivethirtyeight.com/soccer-predictions/premier-league-russia/,Russia,Premier League
+premiership,Scotland: Premiership,https://projects.fivethirtyeight.com/soccer-predictions/premiership/,Scotland,Premiership
+la-liga,Spain: La Liga,https://projects.fivethirtyeight.com/soccer-predictions/la-liga/,Spain,La Liga
+la-liga-2,Spain: La Liga 2,https://projects.fivethirtyeight.com/soccer-predictions/la-liga-2/,Spain,La Liga 2
+allsvenskan,Sweden: Allsvenskan,https://projects.fivethirtyeight.com/soccer-predictions/allsvenskan/,Sweden,Allsvenskan
+super-league,Switzerland: Super League,https://projects.fivethirtyeight.com/soccer-predictions/super-league/,Switzerland,Super League
+super-lig,Turkey: Süper Lig,https://projects.fivethirtyeight.com/soccer-predictions/super-lig/,Turkey,Süper Lig
+liga-mx,Mexico: Liga MX,https://projects.fivethirtyeight.com/soccer-predictions/liga-mx/,Mexico,Liga MX
+mls,USA: Major League Soccer,https://projects.fivethirtyeight.com/soccer-predictions/mls/,USA,Major League Soccer
+nwsl,USA: Nat'l Women's Soccer League,https://projects.fivethirtyeight.com/soccer-predictions/nwsl/,USA,Nat'l Women's Soccer League
+superliga,Argentina: Superliga,https://projects.fivethirtyeight.com/soccer-predictions/superliga/,Argentina,Superliga
+brasileirao,Brazil: Brasileirão,https://projects.fivethirtyeight.com/soccer-predictions/brasileirao/,Brazil,Brasileirão
