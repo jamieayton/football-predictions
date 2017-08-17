@@ -1,0 +1,221 @@
+stage,match_date,hometeam,awayteam,home_prob,draw_prob,away_prob,scrape_datetime,url,league_code
+NA,NA,NA,NA,NA,NA,NA,2017-06-16 07:46:22,https://projects.fivethirtyeight.com/soccer-predictions/,E0
+NA,NA,NA,NA,NA,NA,NA,2017-06-16 07:46:25,https://projects.fivethirtyeight.com/soccer-predictions/la-liga/,SP1
+NA,NA,NA,NA,NA,NA,NA,2017-06-16 07:46:29,https://projects.fivethirtyeight.com/soccer-predictions/bundesliga/,D1
+NA,NA,NA,NA,NA,NA,NA,2017-06-16 07:46:33,https://projects.fivethirtyeight.com/soccer-predictions/serie-a/,I1
+NA,NA,NA,NA,NA,NA,NA,2017-06-16 07:46:36,https://projects.fivethirtyeight.com/soccer-predictions/ligue-1/,F1
+NA,NA,NA,NA,NA,NA,NA,2017-06-16 07:46:39,https://projects.fivethirtyeight.com/soccer-predictions/champions-league/,CL1
+June,6/17,NYCFC,Seattle,0.51,0.25,0.24,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+June,6/17,Atlanta,Columbus,0.51,0.25,0.24,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+June,6/17,New England,Chicago,0.51,0.25,0.24,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+June,6/17,Orlando City,Montreal,0.46,0.26,0.29,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+June,6/17,Toronto FC,D.C. United,0.54,0.25,0.21,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+June,6/17,San Jose,Sporting KC,0.36,0.3,0.34,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+June,6/17,Colorado,Portland,0.42,0.28,0.3,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+June,6/17,Real Salt Lake,Minnesota,0.48,0.25,0.27,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+June,6/17,Vancouver,FC Dallas,0.44,0.27,0.29,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+June,6/17,LA Galaxy,Houston,0.51,0.26,0.23,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+June,6/18,Philadelphia,NY Red Bulls,0.46,0.26,0.27,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+June,6/21,D.C. United,Atlanta,0.45,0.26,0.29,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+June,6/21,Minnesota,Portland,0.39,0.26,0.36,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+June,6/21,Colorado,LA Galaxy,0.41,0.29,0.3,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+June,6/21,Seattle,Orlando City,0.54,0.25,0.21,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+June,6/23,Toronto FC,New England,0.53,0.24,0.22,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+June,6/23,Houston,FC Dallas,0.46,0.27,0.27,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+June,6/24,NY Red Bulls,NYCFC,0.48,0.25,0.27,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+June,6/24,Philadelphia,D.C. United,0.52,0.25,0.22,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+June,6/24,Atlanta,Colorado,0.53,0.27,0.21,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+June,6/24,Columbus,Montreal,0.49,0.25,0.27,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+June,6/24,Minnesota,Vancouver,0.43,0.26,0.31,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+June,6/24,Chicago,Orlando City,0.54,0.25,0.22,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+June,6/24,LA Galaxy,Sporting KC,0.46,0.28,0.27,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+June,6/24,San Jose,Real Salt Lake,0.52,0.26,0.22,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+June,6/25,Portland,Seattle,0.49,0.26,0.25,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+June,6/29,NYCFC,Minnesota,0.54,0.23,0.22,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+July,6/30,Real Salt Lake,Orlando City,0.44,0.26,0.29,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+July,7/1,Sporting KC,Portland,0.53,0.26,0.21,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+July,7/1,Chicago,Vancouver,0.52,0.25,0.23,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+July,7/1,FC Dallas,Toronto FC,0.45,0.27,0.28,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+July,7/1,Montreal,D.C. United,0.53,0.25,0.22,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+July,7/1,Columbus,Atlanta,0.49,0.25,0.26,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+July,7/1,Colorado,Houston,0.44,0.28,0.28,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+July,7/1,San Jose,LA Galaxy,0.41,0.28,0.31,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+July,7/2,Philadelphia,New England,0.45,0.26,0.29,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+July,7/4,Minnesota,Columbus,0.43,0.25,0.32,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+July,7/4,Atlanta,San Jose,0.53,0.26,0.21,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+July,7/4,FC Dallas,D.C. United,0.54,0.25,0.2,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+July,7/4,Colorado,Seattle,0.41,0.29,0.3,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+July,7/4,LA Galaxy,Real Salt Lake,0.54,0.25,0.21,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+July,7/5,New England,NY Red Bulls,0.51,0.25,0.24,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+July,7/5,Orlando City,Toronto FC,0.32,0.26,0.41,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+July,7/5,Houston,Montreal,0.5,0.25,0.25,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+July,7/5,Vancouver,NYCFC,0.44,0.26,0.3,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+July,7/5,Portland,Chicago,0.49,0.25,0.25,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+July,7/6,Sporting KC,Philadelphia,0.54,0.26,0.2,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+July,7/19,NY Red Bulls,San Jose,0.54,0.26,0.2,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+July,7/19,Montreal,Philadelphia,0.51,0.25,0.24,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+July,7/19,NYCFC,Toronto FC,0.45,0.25,0.3,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+July,7/19,Minnesota,Houston,0.41,0.26,0.33,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+July,7/19,LA Galaxy,Vancouver,0.52,0.25,0.22,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+July,7/19,Seattle,D.C. United,0.54,0.25,0.21,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+July,7/19,Portland,Real Salt Lake,0.54,0.24,0.21,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+July,7/21,Orlando City,Atlanta,0.46,0.26,0.28,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+July,7/22,NYCFC,Chicago,0.52,0.24,0.24,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+July,7/22,Minnesota,NY Red Bulls,0.38,0.26,0.36,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+July,7/22,D.C. United,Houston,0.44,0.27,0.29,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+July,7/22,Toronto FC,Colorado,0.54,0.26,0.2,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+July,7/22,Columbus,Philadelphia,0.5,0.25,0.25,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+July,7/22,Montreal,FC Dallas,0.45,0.26,0.28,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+July,7/22,New England,LA Galaxy,0.51,0.25,0.24,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+July,7/22,Real Salt Lake,Sporting KC,0.29,0.28,0.43,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+July,7/23,Vancouver,Portland,0.47,0.26,0.27,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+July,7/23,Seattle,San Jose,0.54,0.27,0.19,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+July,7/26,Philadelphia,Columbus,0.5,0.25,0.25,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+July,7/29,Atlanta,Orlando City,0.52,0.25,0.22,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+July,7/29,NY Red Bulls,Montreal,0.52,0.25,0.23,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+July,7/29,New England,Philadelphia,0.53,0.25,0.22,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+July,7/29,Houston,Portland,0.49,0.26,0.26,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+July,7/29,Real Salt Lake,Columbus,0.4,0.26,0.34,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+July,7/29,Sporting KC,Chicago,0.53,0.26,0.21,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+July,7/29,FC Dallas,Vancouver,0.53,0.26,0.21,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+July,7/29,San Jose,Colorado,0.49,0.29,0.22,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+July,7/29,Minnesota,D.C. United,0.48,0.26,0.27,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+July,7/29,LA Galaxy,Seattle,0.49,0.26,0.24,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+July,7/30,Toronto FC,NYCFC,0.53,0.24,0.23,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+August,8/5,D.C. United,Toronto FC,0.31,0.26,0.43,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+August,8/5,Philadelphia,FC Dallas,0.43,0.27,0.29,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+August,8/5,Montreal,Orlando City,0.53,0.25,0.23,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+August,8/5,Minnesota,Seattle,0.37,0.27,0.36,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+August,8/5,Chicago,New England,0.49,0.25,0.26,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+August,8/5,Real Salt Lake,Houston,0.39,0.27,0.35,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+August,8/5,Colorado,Vancouver,0.45,0.28,0.27,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+August,8/5,San Jose,Columbus,0.46,0.27,0.27,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+August,8/6,Portland,LA Galaxy,0.49,0.26,0.26,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+August,8/6,NYCFC,NY Red Bulls,0.51,0.25,0.24,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+August,8/6,Sporting KC,Atlanta,0.54,0.26,0.2,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+August,8/12,Seattle,Sporting KC,0.46,0.28,0.26,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+August,8/12,Toronto FC,Portland,0.54,0.24,0.22,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+August,8/12,D.C. United,Real Salt Lake,0.53,0.25,0.22,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+August,8/12,Columbus,Chicago,0.46,0.25,0.28,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+August,8/12,NY Red Bulls,Orlando City,0.54,0.25,0.21,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+August,8/12,FC Dallas,Colorado,0.54,0.27,0.19,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+August,8/12,New England,Vancouver,0.53,0.25,0.22,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+August,8/12,Philadelphia,Montreal,0.48,0.25,0.26,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+August,8/12,Houston,San Jose,0.53,0.26,0.21,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+August,8/12,LA Galaxy,NYCFC,0.48,0.25,0.26,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+August,8/16,Montreal,Chicago,0.48,0.25,0.27,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+August,8/19,Montreal,Real Salt Lake,0.54,0.24,0.22,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+August,8/19,Orlando City,Columbus,0.47,0.26,0.27,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+August,8/19,Chicago,Toronto FC,0.42,0.26,0.32,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+August,8/19,Sporting KC,FC Dallas,0.51,0.27,0.21,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+August,8/19,Colorado,D.C. United,0.49,0.28,0.23,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+August,8/19,Vancouver,Houston,0.49,0.26,0.25,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+August,8/19,San Jose,Philadelphia,0.46,0.28,0.26,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+August,8/20,NYCFC,New England,0.51,0.24,0.25,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+August,8/20,Portland,NY Red Bulls,0.49,0.26,0.25,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+August,8/20,Seattle,Minnesota,0.54,0.25,0.21,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+August,8/23,Columbus,LA Galaxy,0.46,0.26,0.28,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+August,8/23,D.C. United,Atlanta,0.45,0.26,0.29,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+August,8/23,Toronto FC,Philadelphia,0.54,0.24,0.21,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+August,8/23,FC Dallas,Houston,0.53,0.26,0.21,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+August,8/23,Real Salt Lake,San Jose,0.46,0.27,0.27,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+August,8/23,Vancouver,Seattle,0.46,0.27,0.27,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+August,8/23,Portland,Colorado,0.54,0.26,0.2,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+August,8/25,NY Red Bulls,NYCFC,0.48,0.25,0.27,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+August,8/26,D.C. United,New England,0.4,0.26,0.34,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+August,8/26,Philadelphia,Atlanta,0.49,0.26,0.26,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+August,8/26,Columbus,FC Dallas,0.44,0.27,0.3,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+August,8/26,Orlando City,Vancouver,0.47,0.26,0.27,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+August,8/26,Chicago,Minnesota,0.54,0.24,0.22,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+August,8/26,Houston,Sporting KC,0.43,0.28,0.29,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+August,8/26,Real Salt Lake,Colorado,0.46,0.28,0.26,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+August,8/27,Montreal,Toronto FC,0.39,0.26,0.35,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+August,8/27,LA Galaxy,San Jose,0.54,0.26,0.2,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+August,8/27,Seattle,Portland,0.51,0.26,0.24,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+September,9/2,Montreal,Chicago,0.48,0.25,0.27,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+September,9/2,New England,Orlando City,0.54,0.25,0.21,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+September,9/2,FC Dallas,NY Red Bulls,0.51,0.26,0.22,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+September,9/2,LA Galaxy,Colorado,0.54,0.27,0.2,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+September,9/6,NYCFC,Sporting KC,0.47,0.27,0.26,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+September,9/9,Chicago,NY Red Bulls,0.5,0.26,0.25,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+September,9/9,Toronto FC,San Jose,0.54,0.26,0.2,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+September,9/9,NYCFC,Portland,0.52,0.24,0.24,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+September,9/9,D.C. United,Orlando City,0.49,0.26,0.25,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+September,9/9,New England,Montreal,0.52,0.24,0.23,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+September,9/9,Minnesota,Philadelphia,0.43,0.26,0.31,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+September,9/9,Houston,Colorado,0.53,0.27,0.2,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+September,9/9,Vancouver,Real Salt Lake,0.54,0.25,0.21,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+September,9/10,Columbus,Sporting KC,0.41,0.28,0.32,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+September,9/10,Atlanta,FC Dallas,0.45,0.27,0.28,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+September,9/10,Seattle,LA Galaxy,0.5,0.26,0.24,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+September,9/13,Atlanta,New England,0.46,0.26,0.28,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+September,9/13,Vancouver,Minnesota,0.54,0.24,0.22,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+September,9/16,Atlanta,Orlando City,0.52,0.25,0.22,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+September,9/16,Vancouver,Columbus,0.5,0.25,0.25,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+September,9/16,Montreal,Minnesota,0.54,0.24,0.22,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+September,9/16,FC Dallas,Seattle,0.51,0.27,0.22,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+September,9/16,Sporting KC,New England,0.52,0.26,0.22,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+September,9/16,Chicago,D.C. United,0.54,0.25,0.21,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+September,9/16,Colorado,NYCFC,0.39,0.28,0.34,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+September,9/16,Real Salt Lake,Portland,0.36,0.26,0.38,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+September,9/16,LA Galaxy,Toronto FC,0.43,0.27,0.31,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+September,9/16,San Jose,Houston,0.44,0.28,0.28,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+September,9/17,NY Red Bulls,Philadelphia,0.52,0.25,0.22,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+September,9/20,Toronto FC,Montreal,0.54,0.24,0.22,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+September,9/23,NYCFC,Houston,0.53,0.25,0.23,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+September,9/23,New England,Toronto FC,0.44,0.26,0.3,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+September,9/23,D.C. United,San Jose,0.5,0.27,0.23,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+September,9/23,Philadelphia,Chicago,0.46,0.26,0.28,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+September,9/23,Atlanta,Montreal,0.5,0.25,0.25,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+September,9/23,Columbus,NY Red Bulls,0.46,0.26,0.28,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+September,9/23,Minnesota,FC Dallas,0.35,0.27,0.39,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+September,9/23,Real Salt Lake,Seattle,0.35,0.27,0.38,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+September,9/23,Vancouver,Colorado,0.53,0.27,0.21,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+September,9/24,Sporting KC,LA Galaxy,0.52,0.27,0.21,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+September,9/24,Portland,Orlando City,0.53,0.25,0.22,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+September,9/27,Atlanta,Philadelphia,0.51,0.25,0.24,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+September,9/27,NY Red Bulls,D.C. United,0.54,0.25,0.21,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+September,9/27,Montreal,NYCFC,0.45,0.25,0.3,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+September,9/27,Orlando City,New England,0.41,0.26,0.32,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+September,9/27,FC Dallas,Colorado,0.54,0.27,0.19,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+September,9/27,Houston,LA Galaxy,0.48,0.26,0.26,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+September,9/27,San Jose,Chicago,0.42,0.28,0.3,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+September,9/27,Seattle,Vancouver,0.52,0.26,0.22,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+September,9/30,Orlando City,FC Dallas,0.4,0.28,0.32,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+September,9/30,Toronto FC,NY Red Bulls,0.54,0.25,0.21,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+September,9/30,Columbus,D.C. United,0.53,0.25,0.23,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+September,9/30,New England,Atlanta,0.52,0.25,0.23,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+October,9/30,Houston,Minnesota,0.54,0.24,0.22,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+October,9/30,Chicago,NYCFC,0.48,0.25,0.27,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+October,9/30,Colorado,Montreal,0.44,0.28,0.28,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+October,9/30,Sporting KC,Vancouver,0.54,0.26,0.2,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+October,9/30,LA Galaxy,Real Salt Lake,0.54,0.25,0.21,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+October,9/30,San Jose,Portland,0.42,0.27,0.3,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+October,10/1,Philadelphia,Seattle,0.45,0.27,0.28,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+October,10/3,Atlanta,Minnesota,0.54,0.24,0.22,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+October,10/7,NY Red Bulls,Vancouver,0.52,0.25,0.22,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+October,10/7,Minnesota,Sporting KC,0.32,0.27,0.41,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+October,10/7,Colorado,FC Dallas,0.39,0.29,0.32,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+October,10/15,NY Red Bulls,Atlanta,0.52,0.25,0.23,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+October,10/15,Chicago,Philadelphia,0.52,0.25,0.23,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+October,10/15,Toronto FC,Montreal,0.54,0.24,0.22,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+October,10/15,New England,NYCFC,0.49,0.25,0.26,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+October,10/15,Portland,D.C. United,0.54,0.25,0.22,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+October,10/15,Orlando City,Columbus,0.47,0.26,0.27,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+October,10/15,LA Galaxy,Minnesota,0.54,0.24,0.21,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+October,10/15,Colorado,Real Salt Lake,0.52,0.27,0.21,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+October,10/15,Sporting KC,Houston,0.53,0.26,0.2,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+October,10/15,Seattle,FC Dallas,0.48,0.27,0.25,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+October,10/15,Vancouver,San Jose,0.53,0.26,0.21,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+October,10/18,Atlanta,LA Galaxy,0.47,0.26,0.27,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+October,10/22,Houston,Chicago,0.48,0.26,0.26,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+October,10/22,D.C. United,NY Red Bulls,0.42,0.27,0.31,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+October,10/22,Real Salt Lake,Sporting KC,0.29,0.28,0.43,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+October,10/22,FC Dallas,LA Galaxy,0.51,0.26,0.23,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+October,10/22,San Jose,Minnesota,0.51,0.26,0.23,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+October,10/22,Seattle,Colorado,0.54,0.27,0.19,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+October,10/22,Montreal,New England,0.46,0.25,0.28,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+October,10/22,Philadelphia,Orlando City,0.52,0.25,0.23,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+October,10/22,Portland,Vancouver,0.52,0.25,0.23,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+October,10/22,NYCFC,Columbus,0.53,0.24,0.23,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
+October,10/22,Atlanta,Toronto FC,0.38,0.27,0.35,2017-06-16 07:47:35,https://projects.fivethirtyeight.com/soccer-predictions/mls/,MLS
